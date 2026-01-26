@@ -15,8 +15,8 @@ import ScrolltoTop from "@/component/ScrolltoTop";
 
 
 export const metadata: Metadata = {
-  title: "ClinicMaster - Health & Medical NextJs Template",
-  description: "ClinicMaster is a clean and modern Health & Medical Next.js template. Ideal for clinics, hospitals, and healthcare providers, with responsive design, booking system, and customizable components.",
+  title: "Asayad Medical Center - Health & Medical NextJs Template",
+  description: "",
 };
 
 export default function RootLayout({

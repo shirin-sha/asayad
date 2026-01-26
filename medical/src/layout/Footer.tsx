@@ -136,7 +136,7 @@ function Footer() {
                         </div>
                     </div>
                 </div>
-                <div className="item1">
+                {/* <div className="item1">
                     <div className="info-widget style-4">
                         <div className="widget-media">
                             <Image src={IMAGES.smallavatar6} alt="" />
@@ -147,7 +147,7 @@ function Footer() {
                             <span className="text">John Cane</span>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </footer>
         </>
     )

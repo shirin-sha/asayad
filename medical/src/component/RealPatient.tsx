@@ -48,7 +48,7 @@ function RealPatient() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="item2" data-bottom-top="transform: translateY(50px)" data-top-bottom="transform: translateY(-50px)">
+                            {/* <div className="item2" data-bottom-top="transform: translateY(50px)" data-top-bottom="transform: translateY(-50px)">
                                 <div className="info-widget style-3 move-1">
                                     <div className="widget-head">
                                         <div className="widget-media">
@@ -67,7 +67,7 @@ function RealPatient() {
                                     </div>
                                     <p>“It is a long established fact that a reader will be distracted by the readable content”</p>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     <div className="col-xl-6 col-lg-10 align-self-center m-b30">

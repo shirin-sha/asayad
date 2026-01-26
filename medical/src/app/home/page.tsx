@@ -107,7 +107,7 @@ function HomePage() {
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="item5" data-bottom-top="transform: translateY(-30px)" data-top-bottom="transform: translateY(30px)">
+                                            {/* <div className="item5" data-bottom-top="transform: translateY(-30px)" data-top-bottom="transform: translateY(30px)">
                                                 <div className="info-widget style-4 move-4">
                                                     <div className="widget-media">
                                                         <Image src={IMAGES.smallavatar6} alt="" />
@@ -117,7 +117,7 @@ function HomePage() {
                                                         <Link href="mailto:info@example.com">info@example.com</Link>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                 </div>
