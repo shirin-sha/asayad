@@ -1,11 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
-        
-    images: {
-      unoptimized: true,
-    },    
+  images: {
+    unoptimized: true,
+  },
+  // Vercel optimizations
+  reactStrictMode: true,
+  swcMinify: true,
 };
 
 export default nextConfig;
