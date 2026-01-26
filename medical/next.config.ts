@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
   },
   // Vercel optimizations
   reactStrictMode: true,
-  swcMinify: true,
+  // swcMinify is enabled by default in Next.js 15, no need to specify
 };
 
 export default nextConfig;
