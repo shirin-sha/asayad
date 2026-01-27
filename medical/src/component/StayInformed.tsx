@@ -22,7 +22,7 @@ function StayInformed() {
                                 <div className="dz-info">
                                     <div className="content-half">
                                         <div className="post-date">12 Jan 2025</div>
-                                        <h3 className="dz-title"> <Link href="/blog-details">The Art of Managing Business and Patient Care</Link> </h3>
+                                        <h3 className="dz-title"> <Link href="/blog-details">Thyroid gland function tests – إختبارات وظائف الغدة الدرقية</Link> </h3>
                                     </div>
                                     <div className="bottom-info">
                                         <Link href="/blog-details" className="btn btn-icon btn-lg btn-primary btn-shadow"> Read More
@@ -37,7 +37,7 @@ function StayInformed() {
                                 <div className="dz-info">
                                     <div className="post-date">12 Jan 2025</div>
                                     <div className="bottom-info">
-                                        <h3 className="dz-title"> <Link href="/blog-details">The Art of Managing Business and Patient Care</Link> </h3>
+                                        <h3 className="dz-title"> <Link href="/blog-details">Vitamin B12 – فيتامين ب 12</Link> </h3>
                                         <Link href="/blog-details" className="btn btn-square btn-white rounded-circle">
                                             <i className="feather icon-arrow-up-right" />
                                         </Link>
@@ -48,10 +48,10 @@ function StayInformed() {
                         <div className="col-xl-3 col-lg-12">
                             <div className="row g-20">
                                 <div className="col-xl-12 col-md-6 wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="0.8s">
-                                    <div className="dz-card style-2 dz-card-overlay card-sm no-image">
+                                    <div className="dz-card style-2 dz-card-overlay card-sm" style={{ backgroundImage: `url(${IMAGES.blogoverlaylarge2.src})` }}>
                                         <div className="dz-info">
                                             <div className="post-date">12 Jan 2025</div>
-                                            <h3 className="dz-title"> <Link href="/blog-details">Strategies for Balancing Business Demands with Optimal</Link> </h3>
+                                            <h3 className="dz-title"> <Link href="/blog-details">Body contouring in the plastic surgery – تحديد الجسم عبر الجراحة التجميليه</Link> </h3>
                                             <div className="bottom-info ms-auto">
                                                 <Link href="/blog-details" className="btn btn-square btn-white rounded-circle">
                                                     <i className="feather icon-arrow-up-right" />
@@ -65,7 +65,7 @@ function StayInformed() {
                                         <div className="dz-info">
                                             <div className="post-date">12 Jan 2025</div>
                                             <div className="bottom-info">
-                                                <h3 className="dz-title"> <Link href="/blog-details">Effective Healthcare Tips</Link> </h3>
+                                                <h3 className="dz-title"> <Link href="/blog-details">Pharmacy – صيدلية</Link> </h3>
                                                 <Link href="/blog-details" className="btn btn-square btn-white rounded-circle">
                                                     <i className="feather icon-arrow-up-right" />
                                                 </Link>

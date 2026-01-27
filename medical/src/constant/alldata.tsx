@@ -138,7 +138,7 @@ export const empolydata = [
     { id: 2, delay: '0.4s', image: IMAGES.team5, title: "Dr. Dina Ibrahim", position: "Lab Doctor" },
     { id: 3, delay: '0.6s', image: IMAGES.team1, title: "Dr. Mohamed Abdel Aziz", position: "Registrar Anesthesiologist" },
     { id: 5, delay: '1.0s', image: IMAGES.team2, title: "Dr Shereen Marei", position: " Doctor of Pediatrics and Neonatology" },
-    { id: 6, delay: '1.2s', image: IMAGES.team2, title: "Dr. Adel Al-malah", position: "Radiology & Imaging Consultant" },
+    // { id: 6, delay: '1.2s', image: IMAGES.team2, title: "Dr. Adel Al-malah", position: "Radiology & Imaging Consultant" },
     { id: 4, delay: '0.8s', image: IMAGES.team4, title: "Prof. Ahmad Nabil ", position: "Consultant of Gastroenterology & G.I. Endoscopy " },
     { id: 7, delay: '1.4s', image: IMAGES.team3, title: "Dr. Muhammad Mustafa", position: "General Surgery Registrar" },
     { id: 8, delay: '1.6s', image: IMAGES.team4, title: "Dr. Mohamed Hassan", position: "Physiotherapist & Rehabilitation Specialist" },
