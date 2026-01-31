@@ -23,7 +23,7 @@ import { Autoplay, EffectFade, Navigation, Pagination } from "swiper/modules";
 
 const heroSlides = [
     {
-        title: "Expert Care <br/>Trusted Health <br/> Results",
+        title: "Expert Care <br/>Trusted Health <br/> <span class='text-primary'>Results</span>",
         description: "Modern diagnostics and specialist treatment with patient-first support.",
         button1Text: "Book Appointment",
         button1Link: "/appointment",
@@ -31,7 +31,7 @@ const heroSlides = [
         button2Link: "/services",
     },
     {
-        title: "Modern Clinics <br/>Fast Appointment <br/>Confirmation",  
+        title: "Modern Clinics <br/>Fast Appointment <br/> <span class='text-primary'>Confirmation</span>",  
         description: "Book easily online with our web system and our team will confirm quickly..",
         button1Text: "Book Appointment",
         button1Link: "/appointment",
@@ -39,7 +39,7 @@ const heroSlides = [
         button2Link: "/contact-us",
     },
     {
-        title: "Women's Health <br/>IVF Specialist <br/>Care",
+        title: "Women's Health <br/>IVF Specialist <br/> <span class='text-primary'>Care</span>",
         description: "Private, compassionate support with expert monitoring and guidance.",
         button1Text: "Book Appointment",
         button1Link: "/appointment",
@@ -131,7 +131,7 @@ function HomePage() {
                                             </div>
                                             <div className="col-lg-6 wow fadeInRight" data-wow-delay="0.8s" data-wow-duration="0.8s">
                                                 <div className="hero-thumbnail" data-bottom-top="transform: translateY(-50px)" data-top-bottom="transform: translateY(50px)">
-                                                    <Image className="thumbnail" src={IMAGES.herobanner1} alt="" />
+                                                      <Image className="thumbnail" src={IMAGES.herobanner1} alt="" />
                                                     <div className="circle-wrapper">
                                                         <span className="circle1"></span>
                                                         <span className="circle2"></span>
