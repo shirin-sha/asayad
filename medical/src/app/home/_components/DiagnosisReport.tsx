@@ -34,6 +34,9 @@ const DiagnosisReport = () =>{
                         color: 'var(--bs-primary)',
                         fontWeight: '600',
                         fontFamily: 'var(--font-family-base)',
+                        formatter: function(val: number) {
+                            return '24/7';
+                        }
                     }
                 }
             }

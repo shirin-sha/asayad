@@ -109,36 +109,95 @@ function HomePage() {
                             <SwiperSlide key={index}>
                                 <div className="hero-slide" style={{ backgroundImage: `url(${IMAGES.herobannerbg1.src})`, backgroundSize: 'cover' }}>
                                     <div className="container">
-                                        <div className="row align-items-end h-100">
-                                            <div className="col-lg-6 align-self-center">
-                                                <div className="hero-content">
-                                                    <h1 className="title wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.8s">
-                                                        <span dangerouslySetInnerHTML={{ __html: slide.title }} />
-                                                        <Image src={IMAGES.herobannerline} alt="" />
-                                                    </h1>
-                                                    <p className="text wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.8s">
-                                                        {slide.description}
-                                                    </p>
-                                                    <Link href={slide.button1Link} className="btn btn-lg btn-icon btn-primary m-r20 wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="0.8s">
-                                                        {slide.button1Text}
-                                                        <span className="right-icon"><i className="feather icon-arrow-right" /></span>
-                                                    </Link>
-                                                    <Link href={slide.button2Link} className="btn btn-lg btn-icon btn-secondary wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="0.8s">
-                                                        {slide.button2Text}
-                                                        <span className="right-icon"><i className="feather icon-arrow-right" /></span>
-                                                    </Link>
+                                        <div className="inner-wrapper">
+                                            {/* <span className="text-vertical text-secondary">24/7 EMERGENCY SERVICE</span> */}
+                                            <div className="row align-items-end h-100">
+                                                <div className="col-lg-6 align-self-center">
+                                                    <div className="hero-content">
+                                                        <h1 className="title wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.8s">
+                                                            <span dangerouslySetInnerHTML={{ __html: slide.title }} />
+                                                            <Image src={IMAGES.herobannerline} alt="" />
+                                                        </h1>
+                                                        <p className="text wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.8s">
+                                                            {slide.description}
+                                                        </p>
+                                                        <Link href={slide.button1Link} className="btn btn-lg btn-icon btn-primary m-r20 wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="0.8s">
+                                                            {slide.button1Text}
+                                                            <span className="right-icon"><i className="feather icon-arrow-right" /></span>
+                                                        </Link>
+                                                        <Link href={slide.button2Link} className="btn btn-lg btn-icon btn-secondary wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="0.8s">
+                                                            {slide.button2Text}
+                                                            <span className="right-icon"><i className="feather icon-arrow-right" /></span>
+                                                        </Link>
+                                                    </div>
+                                                </div>
+                                                <div className="col-lg-6 wow fadeInRight" data-wow-delay="0.8s" data-wow-duration="0.8s">
+                                                    <div className="hero-thumbnail" data-bottom-top="transform: translateY(-50px)" data-top-bottom="transform: translateY(50px)">
+                                                        <Image className="thumbnail" src={IMAGES.herobanner1} alt="" />
+                                                        <div className="circle-wrapper">
+                                                            <span className="circle1"></span>
+                                                            <span className="circle2"></span>
+                                                            <span className="circle3"></span>
+                                                            <div className="item1">
+                                                                <Image src={IMAGES.herobannerheart} alt="" />
+                                                            </div>
+                                                        </div>
+                                                        <div className="item2" data-bottom-top="transform: translateY(-50px)" data-top-bottom="transform: translateY(50px)">
+                                                            <div className="info-widget style-1 move-3">
+                                                                <div className="avatar-group">
+                                                                    <Image className="avatar rounded-circle avatar-sm border border-white border-2" src={IMAGES.smallavatar1} alt="" />
+                                                                    <Image className="avatar rounded-circle avatar-sm border border-white border-2" src={IMAGES.smallavatar2} alt="" />
+                                                                    <Image className="avatar rounded-circle avatar-sm border border-white border-2" src={IMAGES.smallavatar3} alt="" />
+                                                                    <Image className="avatar rounded-circle avatar-sm border border-white border-2" src={IMAGES.smallavatar4} alt="" />
+                                                                </div>
+                                                                <div className="clearfix ms-2">
+                                                                    <span className="number text-primary"> 15+</span>
+                                                                    <span>Specialty Services</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div className="item3" data-bottom-top="transform: translateY(-50px)" data-top-bottom="transform: translateY(50px)">
+                                                            <div className="info-widget style-2 move-2">
+                                                                <DiagnosisReport />
+                                                                <div className="widget-content">
+                                                                    <h6 className="mb-0"> Online Appointment</h6>
+                                                                    <Link href="/team-detail" className="btn btn-square btn-outline-light text-primary rounded-circle">
+                                                                        <i className="feather icon-arrow-up-right" />
+                                                                    </Link>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div className="item4" data-bottom-top="transform: translateY(-50px)" data-top-bottom="transform: translateY(50px)">
+                                                            <div className="info-widget style-3 move-1">
+                                                                <div className="widget-head">
+                                                                    <div className="widget-media">
+                                                                        <Image src={IMAGES.smallavatar5} alt="" />
+                                                                    </div>
+                                                                    <div className="widget-content">
+                                                                        <h6 className="title">Reports & Follow-Ups</h6>
+                                                                        <ul className="star-list">
+                                                                            <li><i className="fa fa-star" /></li>
+                                                                            <li><i className="fa fa-star" /></li>
+                                                                            <li><i className="fa fa-star" /></li>
+                                                                            <li><i className="fa fa-star" /></li>
+                                                                            <li><i className="fa fa-star" /></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                                <p>"Clear results and guidance for your next steps after every visit."</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div className="col-lg-6 wow fadeInRight" data-wow-delay="0.8s" data-wow-duration="0.8s">
-                                                <div className="hero-thumbnail" data-bottom-top="transform: translateY(-50px)" data-top-bottom="transform: translateY(50px)">
-                                                      <Image className="thumbnail" src={IMAGES.herobanner1} alt="" />
-                                                    <div className="circle-wrapper">
-                                                        <span className="circle1"></span>
-                                                        <span className="circle2"></span>
-                                                        <span className="circle3"></span>
-                                                        <div className="item1">
-                                                            <Image src={IMAGES.herobannerheart} alt="" />
-                                                        </div>
+                                            <div className="item5" data-bottom-top="transform: translateY(-30px)" data-top-bottom="transform: translateY(30px)">
+                                                <div className="info-widget style-4 move-4">
+                                                    <div className="widget-media">
+                                                        <Image src={IMAGES.smallavatar6} alt="" />
+                                                    </div>
+                                                    <div className="widget-content">
+                                                        <h6 className="title">Have a Question?</h6>
+                                                        <Link href="mailto:info@example.com">info@example.com</Link>
                                                     </div>
                                                 </div>
                                             </div>
