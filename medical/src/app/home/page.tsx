@@ -23,24 +23,24 @@ import { Autoplay, EffectFade, Navigation, Pagination } from "swiper/modules";
 
 const heroSlides = [
     {
-        title: "Multi-Specialty Care, One Trusted Center",
-        description: "Expert doctors, modern diagnostics, and patient-first treatment, everything you need under one roof in Kuwait.",
+        title: "Expert Care <br/>Trusted Health <br/> Results",
+        description: "Modern diagnostics and specialist treatment with patient-first support.",
         button1Text: "Book Appointment",
         button1Link: "/appointment",
         button2Text: "View Services",
         button2Link: "/services",
     },
     {
-        title: "Advanced Diagnostics. Accurate Results.",
-        description: "From imaging to lab testing, get clear answers faster with modern technology and professional reporting.",
+        title: "Modern Clinics <br/>Fast Appointment <br/>Confirmation",  
+        description: "Book easily online with our web system and our team will confirm quickly..",
         button1Text: "Book Appointment",
         button1Link: "/appointment",
         button2Text: "Contact Us",
         button2Link: "/contact-us",
     },
     {
-        title: "Women's Health & IVF Support You Can Rely On",
-        description: "Compassionate care for every stage, consultations, monitoring, and fertility support with privacy and comfort.",
+        title: "Women's Health <br/>IVF Specialist <br/>Care",
+        description: "Private, compassionate support with expert monitoring and guidance.",
         button1Text: "Book Appointment",
         button1Link: "/appointment",
         button2Text: "Learn More",
@@ -113,7 +113,7 @@ function HomePage() {
                                             <div className="col-lg-6 align-self-center">
                                                 <div className="hero-content">
                                                     <h1 className="title wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.8s">
-                                                        {slide.title}
+                                                        <span dangerouslySetInnerHTML={{ __html: slide.title }} />
                                                         <Image src={IMAGES.herobannerline} alt="" />
                                                     </h1>
                                                     <p className="text wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.8s">

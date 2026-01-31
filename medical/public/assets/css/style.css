@@ -15465,7 +15465,7 @@ section {
   height: 100%;
 }
 .hero-banner.style-1 .title {
-  font-size: 80px;
+  font-size: 65px;
   font-weight: bold;
   margin-bottom: 10px;
 }
@@ -15582,7 +15582,7 @@ section {
     height: 800px;
   }
   .hero-banner.style-1 .title {
-    font-size: 60px;
+    font-size: 50px;
   }
   .hero-banner.style-1 .title img {
     display: none;
@@ -15633,7 +15633,7 @@ section {
     margin-left: 0;
   }
   .hero-banner.style-1 .title {
-    font-size: 48px;
+    font-size: 38px;
   }
   .hero-banner.style-1 .item5,
   .hero-banner.style-1 .item3,
@@ -15661,8 +15661,8 @@ section {
     width: 100%;
   }
   .hero-banner.style-1 .title {
-    font-size: 36px;
-  }
+    font-size: 32px;
+  } 
   .hero-banner.style-1 .text {
     font-size: 16px;
     margin-bottom: 20px;
