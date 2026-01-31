@@ -147,13 +147,13 @@ function Header() {
                                         <li className="nav-item">
                                             <Link href="/appointment" className="btn btn-primary btn-hover1"> Appointment </Link>
                                         </li>
-                                        {/* <li className="nav-item">
+                                        <li className="nav-item">
                                             <button onClick={() => handleclick(1)} type="button" className="toggle-nav-btn" data-bs-toggle="offcanvas" data-bs-target="#headerSidebar" aria-controls="offcanvasLeft">
                                                 <span></span>
                                                 <span></span>
                                                 <span></span>
                                             </button>
-                                        </li> */}
+                                        </li>
                                     </ul>
                                 </div>
                             </div>

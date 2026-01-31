@@ -57,7 +57,7 @@ function HomePage() {
                 <div className="hero-banner style-1">
                     <Swiper
                         className="hero-swiper"
-                        modules={[Autoplay, EffectFade, Navigation, Pagination]}
+                        modules={[Autoplay, EffectFade, Navigation, ]}
                         effect="fade"
                         loop={true}
                         autoplay={{
@@ -146,8 +146,9 @@ function HomePage() {
                 </section>
                 <Howitwork />
                 {/* <MeetDr /> */}
+                <Awards />  
                 <Frequently />
-                <Awards />
+              
                 <StayInformed />
                 <MapWraper />                 
             </main >

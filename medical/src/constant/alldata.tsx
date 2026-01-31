@@ -27,37 +27,37 @@ export type HeaderItem = {
 
 
 export const headerdata : HeaderItem[] = [
-    { title: "HOME", to: "/", },
+    { title: "Home", to: "/", },
     {
-        title: "ABOUT US",
+        title: "About Us",
         classChange: "sub-menu-down",
         content: [
-            { title: "WHO WE ARE", to: "/about-us/who-we-are" },
-            { title: "CHAIRMAN'S MESSAGE", to: "/about-us/chairman-message" },
-            { title: "OUR MISSION", to: "/about-us/our-mission" },
-            { title: "OUR VISION", to: "/about-us/our-vision" },
-            { title: "MANAGEMENT TEAM", to: "/about-us/management-team" },
+            { title: "Who We Are", to: "/about-us/who-we-are" },
+            { title: "Chairman's Message", to: "/about-us/chairman-message" },
+            { title: "Our Mission", to: "/about-us/our-mission" },
+            { title: "Our Vision", to: "/about-us/our-vision" },
+            { title: "Management Team", to: "/about-us/management-team" },
         ],
     },
     {
-        title: "MEDICAL SERVICES",
+        title: "Medical Services",
         classChange: "sub-menu-down",
         content: [
-            { title: "RADIOLOGY & IMAGING", to: "/medical-services/radiology-imaging" },
-            { title: "IVF UNIT", to: "/medical-services/ivf-unit" },
-            { title: "PHYSIOTHERAPY UNIT", to: "/medical-services/physiotherapy-unit" },
-            { title: "DENTAL", to: "/medical-services/dental" },
-            { title: "OB/ GYNECOLOGY & IVF", to: "/medical-services/ob-gynecology-ivf" },
-            { title: "ALL MEDICAL SERVICES", to: "/medical-services" },
+            { title: "Radiology & Imaging", to: "/medical-services/radiology-imaging" },
+            { title: "IVF Unit", to: "/medical-services/ivf-unit" },
+            { title: "Physiotherapy Unit", to: "/medical-services/physiotherapy-unit" },
+            { title: "Dental", to: "/medical-services/dental" },
+            { title: "OB/ Gynecology & IVF", to: "/medical-services/ob-gynecology-ivf" },
+            { title: "All Medical Services", to: "/medical-services" },
         ],
     },
-    { title: "MEDIA", to: "/media", },
-    { title: "HOSPITALITY", to: "/hospitality", },
-    { title: "PATIENTS & VISITORS", to: "/patients-visitors", },
-    { title: "INSURANCE", to: "/insurance", },
-    { title: "BLOG", to: "/blog", },
-    { title: "CAREERS", to: "/careers", },
-    { title: "CONTACT", to: "/contact-us", },
+    { title: "Media", to: "/media", },
+    { title: "Hospitality", to: "/hospitality", },
+    { title: "Patients & Visitors", to: "/patients-visitors", },
+    { title: "Insurance", to: "/insurance", },
+    { title: "Blog", to: "/blog", },
+    { title: "Careers", to: "/careers", },
+    { title: "Contact", to: "/contact-us", },
 ]
 // footer 
 export const footerdata1 = [
