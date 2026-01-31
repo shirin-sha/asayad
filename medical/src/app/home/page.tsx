@@ -53,6 +53,43 @@ function HomePage() {
     return (
         <>
             <Header />
+            <style dangerouslySetInnerHTML={{__html: `
+                .hero-banner.style-1 {
+                    overflow: hidden !important;
+                }
+                .hero-swiper {
+                    overflow: hidden !important;
+                    height: 100% !important;
+                }
+                .hero-swiper .swiper-wrapper {
+                    overflow: hidden;
+                    height: 100% !important;
+                }
+                .hero-swiper .swiper-slide {
+                    overflow: hidden;
+                    height: 100% !important;
+                    display: flex !important;
+                    align-items: stretch !important;
+                }
+                .hero-slide {
+                    height: 100% !important;
+                    width: 100% !important;
+                    display: flex !important;
+                    flex-direction: column !important;
+                }
+                .hero-slide .container {
+                    height: 100%;
+                    flex: 1;
+                    display: flex;
+                    flex-direction: column;
+                }
+                .hero-banner .circle-wrapper {
+                    position: relative;
+                    bottom: 0;
+                    max-height: 100%;
+                    overflow: hidden;
+                }
+            `}} />
             <main className="page-content">
                 <div className="hero-banner style-1">
                     <Swiper
@@ -72,52 +109,39 @@ function HomePage() {
                             <SwiperSlide key={index}>
                                 <div className="hero-slide" style={{ backgroundImage: `url(${IMAGES.herobannerbg1.src})`, backgroundSize: 'cover' }}>
                                     <div className="container">
-                                        <div className="inner-wrapper">
-                                            <div className="row align-items-end h-100">
-                                                <div className="col-lg-6 align-self-center">
-                                                    <div className="hero-content">
-                                                        <h1 className="title wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.8s">
-                                                            {slide.title}
-                                                            <Image src={IMAGES.herobannerline} alt="" />
-                                                        </h1>
-                                                        <p className="text wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.8s">
-                                                            {slide.description}
-                                                        </p>
-                                                        <Link href={slide.button1Link} className="btn btn-lg btn-icon btn-primary m-r20 wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="0.8s">
-                                                            {slide.button1Text}
-                                                            <span className="right-icon"><i className="feather icon-arrow-right" /></span>
-                                                        </Link>
-                                                        <Link href={slide.button2Link} className="btn btn-lg btn-icon btn-secondary wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="0.8s">
-                                                            {slide.button2Text}
-                                                            <span className="right-icon"><i className="feather icon-arrow-right" /></span>
-                                                        </Link>
-                                                    </div>
+                                        <div className="row align-items-end h-100">
+                                            <div className="col-lg-6 align-self-center">
+                                                <div className="hero-content">
+                                                    <h1 className="title wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.8s">
+                                                        {slide.title}
+                                                        <Image src={IMAGES.herobannerline} alt="" />
+                                                    </h1>
+                                                    <p className="text wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.8s">
+                                                        {slide.description}
+                                                    </p>
+                                                    <Link href={slide.button1Link} className="btn btn-lg btn-icon btn-primary m-r20 wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="0.8s">
+                                                        {slide.button1Text}
+                                                        <span className="right-icon"><i className="feather icon-arrow-right" /></span>
+                                                    </Link>
+                                                    <Link href={slide.button2Link} className="btn btn-lg btn-icon btn-secondary wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="0.8s">
+                                                        {slide.button2Text}
+                                                        <span className="right-icon"><i className="feather icon-arrow-right" /></span>
+                                                    </Link>
                                                 </div>
-                                                <div className="col-lg-6 wow fadeInRight" data-wow-delay="0.8s" data-wow-duration="0.8s">
-                                                    <div className="hero-thumbnail" data-bottom-top="transform: translateY(-50px)" data-top-bottom="transform: translateY(50px)">
-                                                        <Image className="thumbnail" src={IMAGES.herobanner1} alt="" />
-                                                        <div className="circle-wrapper">
-                                                            <span className="circle1"></span>
-                                                            <span className="circle2"></span>
-                                                            <span className="circle3"></span>
-                                                            <div className="item1">
-                                                                <Image src={IMAGES.herobannerheart} alt="" />
-                                                            </div>
+                                            </div>
+                                            <div className="col-lg-6 wow fadeInRight" data-wow-delay="0.8s" data-wow-duration="0.8s">
+                                                <div className="hero-thumbnail" data-bottom-top="transform: translateY(-50px)" data-top-bottom="transform: translateY(50px)">
+                                                    <Image className="thumbnail" src={IMAGES.herobanner1} alt="" />
+                                                    <div className="circle-wrapper">
+                                                        <span className="circle1"></span>
+                                                        <span className="circle2"></span>
+                                                        <span className="circle3"></span>
+                                                        <div className="item1">
+                                                            <Image src={IMAGES.herobannerheart} alt="" />
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            {/* <div className="item5" data-bottom-top="transform: translateY(-30px)" data-top-bottom="transform: translateY(30px)">
-                                                <div className="info-widget style-4 move-4">
-                                                    <div className="widget-media">
-                                                        <Image src={IMAGES.smallavatar6} alt="" />
-                                                    </div>
-                                                    <div className="widget-content">
-                                                        <h6 className="title">Have a Question?</h6>
-                                                        <Link href="mailto:info@example.com">info@example.com</Link>
-                                                    </div>
-                                                </div>
-                                            </div> */}
                                         </div>
                                     </div>
                                 </div>
