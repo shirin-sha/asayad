@@ -138,9 +138,7 @@ function HomePage() {
                                                             <span className="circle1"></span>
                                                             <span className="circle2"></span>
                                                             <span className="circle3"></span>
-                                                            <div className="item1">
-                                                                <Image src={IMAGES.herobannerheart} alt="" />
-                                                            </div>
+                                                          
                                                         </div>
                                                         <div className="item2" data-bottom-top="transform: translateY(-50px)" data-top-bottom="transform: translateY(50px)">
                                                             <div className="info-widget style-1 move-3">
