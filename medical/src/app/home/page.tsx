@@ -92,6 +92,15 @@ function HomePage() {
                     max-height: 100%;
                     overflow: hidden;
                 }
+                .hero-swiper .swiper-button-next,
+                .hero-swiper .swiper-button-prev {
+                    color:rgb(168, 169, 170) !important;
+                }
+                .hero-swiper .swiper-button-next:hover,
+                .hero-swiper .swiper-button-prev:hover {
+                    color:rgb(153, 157, 158) !important;
+                }
+           
             `}} />
             <main className="page-content">
                 <div className="hero-banner style-1">
