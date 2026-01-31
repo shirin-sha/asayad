@@ -29,6 +29,7 @@ const heroSlides = [
         button1Link: "/appointment",
         button2Text: "View Services",
         button2Link: "/services",
+        thumbnail: IMAGES.herobanner1,
     },
     {
         title: "Modern Clinics <br/>Fast Appointment <br/> <span class='text-primary'>Confirmation</span>",  
@@ -37,6 +38,7 @@ const heroSlides = [
         button1Link: "/appointment",
         button2Text: "Contact Us",
         button2Link: "/contact-us",
+        thumbnail: IMAGES.bnr2,
     },
     {
         title: "Women's Health <br/>IVF Specialist <br/> <span class='text-primary'>Care</span>",
@@ -45,6 +47,7 @@ const heroSlides = [
         button1Link: "/appointment",
         button2Text: "Learn More",
         button2Link: "/medical-services/ob-gynecology-ivf",
+        thumbnail: IMAGES.bnr3,
     },
 ];
 
@@ -132,8 +135,8 @@ function HomePage() {
                                                     </div>
                                                 </div>
                                                 <div className="col-lg-6 wow fadeInRight" data-wow-delay="0.8s" data-wow-duration="0.8s">
-                                                    <div className="hero-thumbnail" data-bottom-top="transform: translateY(-50px)" data-top-bottom="transform: translateY(50px)">
-                                                        <Image className="thumbnail" src={IMAGES.herobanner1} alt="" />
+                                                     <div className="hero-thumbnail" data-bottom-top="transform: translateY(-50px)" data-top-bottom="transform: translateY(50px)">
+                                                         <Image className="thumbnail" src={slide.thumbnail} alt="" />
                                                         <div className="circle-wrapper">
                                                             <span className="circle1"></span>
                                                             <span className="circle2"></span>
