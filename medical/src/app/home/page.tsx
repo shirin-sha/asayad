@@ -29,7 +29,7 @@ const heroSlides = [
         button1Link: "/appointment",
         button2Text: "View Services",
         button2Link: "/services",
-        thumbnail: IMAGES.herobanner1,
+        thumbnail: IMAGES.bnr1,
     },
     {
         title: "Modern Clinics <br/>Fast Appointment <br/> <span class='text-primary'>Confirmation</span>",  
