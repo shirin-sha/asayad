@@ -15649,6 +15649,7 @@ section {
   .hero-banner.style-1 {
     height: auto;
     padding-top: 50px;
+    background-image: url(../images/hero-banner/bg1.webp);
   }
   .hero-banner.style-1 .hero-thumbnail {
     margin-left: auto;
