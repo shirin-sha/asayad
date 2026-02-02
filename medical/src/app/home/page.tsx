@@ -32,8 +32,8 @@ const heroSlides = [
         thumbnail: IMAGES.bnr1,
     },
     {
-        title: "Modern Clinics <br/>Fast Appointment <br/> <span class='text-primary'>Confirmation</span>",  
-        description: "Book easily online with our web system and our team will confirm quickly..",
+        title: "Modern Clinics, <br/>Consultations  <br/> <span class='text-primary'>Fast.</span>",  
+        description: "Modern care with fast, expert consultations you can trust.",
         button1Text: "Book Appointment",
         button1Link: "/appointment",
         button2Text: "Contact Us",
@@ -150,7 +150,9 @@ function HomePage() {
                                                             <span className="circle1"></span>
                                                             <span className="circle2"></span>
                                                             <span className="circle3"></span>
-                                                          
+                                                            <div className="item1">
+                                                                <Image src={IMAGES.herobannerheart} alt="" />
+                                                            </div>
                                                         </div>
                                                         <div className="item2" data-bottom-top="transform: translateY(-50px)" data-top-bottom="transform: translateY(50px)">
                                                             <div className="info-widget style-1 move-3">
@@ -160,6 +162,7 @@ function HomePage() {
                                                                     <Image className="avatar rounded-circle avatar-sm border border-white border-2" src={IMAGES.smallavatar3} alt="" />
                                                                     <Image className="avatar rounded-circle avatar-sm border border-white border-2" src={IMAGES.smallavatar4} alt="" />
                                                                 </div>
+                                                                
                                                                 <div className="clearfix ms-2">
                                                                     <span className="number text-primary"> 15+</span>
                                                                     <span>Specialty Services</span>
@@ -223,7 +226,7 @@ function HomePage() {
                         <WorldClass />
                     </div>
                 </section>
-                <Counter />
+             
                 <ServicesSection />
                 <AppointmentData />
                 <section className="content-inner overlay-secondary-dark background-blend-luminosity bg-img-fix overflow-hidden" style={{ backgroundImage: `URL(${IMAGES.bg1})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'right center' }}>
@@ -241,7 +244,7 @@ function HomePage() {
                 {/* <MeetDr /> */}
                 <Awards />  
                 <Frequently />
-              
+                <Counter />
                 <StayInformed />
                 <MapWraper />                 
             </main >
