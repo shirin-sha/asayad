@@ -226,7 +226,7 @@ function HomePage() {
                                                     </div>
                                                     <div className="widget-content">
                                                         <h6 className="title">Have a Question?</h6>
-                                                        <Link href="#">info@example.com</Link>
+                                                        <Link href="mailto:info@amckw.com">info@amckw.com</Link>
                                                     </div>
                                                 </div>
                                             </div>
