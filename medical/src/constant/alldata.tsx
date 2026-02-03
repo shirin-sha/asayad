@@ -7,7 +7,7 @@ import Image, { StaticImageData } from "next/image"
 export const headerinfo = [
     { image: IMAGES.svgicon1, title: 'Contatc Us', paragraph: <Link href="tel:+96522211900" className="text-secondary">+965 22211900</Link>, },
     { image: IMAGES.svgicon2, title: 'Email Supports', paragraph: <Link href="mailto:info@amckw.com" className="text-secondary">info@amckw.com</Link>, },
-    { image: IMAGES.clocksvg, title: 'Opening Hours', paragraph: 'Daily: 8:00 AM – 9:00 PM', },
+    { image: IMAGES.clocksvgheader, title: 'Opening Hours', paragraph: 'Daily: 8:00 AM – 9:00 PM', },
 ]
 
 

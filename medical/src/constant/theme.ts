@@ -119,6 +119,7 @@ import callsvg from '../../public/assets/images/svg/call.svg'
 import mikesvg from '../../public/assets/images/svg/mike.svg'
 import videosvg from '../../public/assets/images/svg/video.svg'
 import clocksvg from '../../public/assets/images/svg/clock.svg'
+import clocksvgheader from '../../public/assets/images/svg/clock-header.svg'
 import Check from '../../public/assets/images/svg/check.svg'
 import question from '../../public/assets/images/question.png'
 import quotation from '../../public/assets/images/quotation.svg'
@@ -201,6 +202,7 @@ export const IMAGES = {
     mikesvg: mikesvg,
     videosvg: videosvg,
     clocksvg: clocksvg,
+    clocksvgheader: clocksvgheader,
     about1png: about1png,
     about2png: about2png,
     about3png: about3png,
