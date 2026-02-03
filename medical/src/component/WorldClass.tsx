@@ -53,7 +53,7 @@ function WorldClass() {
                         ))}
                     </ul>
                     <div className="d-flex flex-wrap align-items-center wow fadeInUp" data-wow-delay="0.8s" data-wow-duration="0.8s">
-                        <Link href="/appointment" className="btn btn-lg btn-icon btn-secondary btn-shadow m-r30 mb-3 mb-sm-0">
+                        <Link href="#" className="btn btn-lg btn-icon btn-secondary btn-shadow m-r30 mb-3 mb-sm-0">
                             Appointment
                             <span className="right-icon"><i className="feather icon-arrow-right" /></span>
                         </Link>

@@ -27,7 +27,7 @@ function MapWraper() {
                                         </div>
                                     </div>
                                 ))}
-                                <Link href="/appointment" className="btn btn-lg btn-icon btn-primary w-100 m-t20 btn-shadow wow fadeInUp" data-wow-delay="1.2s" data-wow-duration="0.8s">
+                                <Link href="#" className="btn btn-lg btn-icon btn-primary w-100 m-t20 btn-shadow wow fadeInUp" data-wow-delay="1.2s" data-wow-duration="0.8s">
                                     <span className="w-100">Appointment</span>
                                     <span className="right-icon"><i className="feather icon-arrow-right" /></span>
                                 </Link>

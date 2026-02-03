@@ -57,7 +57,7 @@ function Footer() {
                             <div className="col-xl-3 col-sm-12 wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.8s">
                                 <div className="widget widget_about me-2">
                                     <div className="footer-logo logo-white">
-                                        <Link href="/"><Image src={IMAGES.logo} alt="" /></Link>
+                                        <Link href="#"><Image src={IMAGES.logo} alt="" /></Link>
                                     </div>
                                     <p>Asayad Medical Center (AMC) is a multi-specialty medical center in Kuwait, providing modern diagnostics and expert care across key departments. We focus on patient comfort, clear communication, and reliable treatment outcomes.</p>
                                 </div>
@@ -67,11 +67,11 @@ function Footer() {
                                     <div className="widget widget_services">
                                         <h2 className="footer-title">{data.title} </h2>
                                         <ul className="list-hover1">
-                                            {data.span1 && <li><Link href={data.link1}><span>{data.span1}</span></Link></li>}
-                                            {data.span2 && <li><Link href={data.link2}><span>{data.span2}</span></Link></li>}
-                                            {data.span3 && <li><Link href={data.link3}><span>{data.span3}</span></Link></li>}
-                                            {data.span4 && <li><Link href={data.link4}><span>{data.span4}</span></Link></li>}
-                                            {data.span5 && <li><Link href={data.link5}><span>{data.span5}</span></Link></li>}
+                                            {data.span1 && <li><Link href="#"><span>{data.span1}</span></Link></li>}
+                                            {data.span2 && <li><Link href="#"><span>{data.span2}</span></Link></li>}
+                                            {data.span3 && <li><Link href="#"><span>{data.span3}</span></Link></li>}
+                                            {data.span4 && <li><Link href="#"><span>{data.span4}</span></Link></li>}
+                                            {data.span5 && <li><Link href="#"><span>{data.span5}</span></Link></li>}
                                         </ul>
                                     </div>
                                 </div>

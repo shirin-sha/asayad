@@ -10,14 +10,7 @@ function AppointmentData() {
     const form = useRef<HTMLFormElement | null>(null);
     const { sendEmail } = useEmailService();
     const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
-        e.preventDefault();
-        if (!form.current) return;
-        const result = await sendEmail(form.current);
-        if (result.success) {
-            console.log('SUCCESS!', result.message);
-        } else {
-            console.error('FAILED...', result.message);
-        }
+        console.log("Appointment submitted");
     };
     
     return (

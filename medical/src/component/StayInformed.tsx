@@ -22,10 +22,10 @@ function StayInformed() {
                                 <div className="dz-info">
                                     <div className="content-half">
                                         <div className="post-date">12 Jan 2025</div>
-                                        <h3 className="dz-title"> <Link href="/blog-details">Understanding Thyroid Hormones and Blood Tests</Link> </h3>
+                                        <h3 className="dz-title"> <Link href="#">Understanding Thyroid Hormones and Blood Tests</Link> </h3>
                                     </div>
                                     <div className="bottom-info">
-                                        <Link href="/blog-details" className="btn btn-icon btn-lg btn-primary btn-shadow"> Read More
+                                        <Link href="#" className="btn btn-icon btn-lg btn-primary btn-shadow"> Read More
                                             <span className="right-icon"><i className="feather icon-arrow-right" /></span>
                                         </Link>
                                     </div>
@@ -37,9 +37,9 @@ function StayInformed() {
                                 <div className="dz-info">
                                     <div className="post-date">12 Jan 2025</div>
                                     <div className="bottom-info">
-                                        <h3 className="dz-title"> <Link href="/blog-details">Understanding Vitamin B12 Deficiency and Health
+                                        <h3 className="dz-title"> <Link href="#">Understanding Vitamin B12 Deficiency and Health
                                         </Link> </h3>
-                                        <Link href="/blog-details" className="btn btn-square btn-white rounded-circle">
+                                        <Link href="#" className="btn btn-square btn-white rounded-circle">
                                             <i className="feather icon-arrow-up-right" />
                                         </Link>
                                     </div>
@@ -52,10 +52,10 @@ function StayInformed() {
                                     <div className="dz-card style-2 dz-card-overlay card-sm" style={{ backgroundImage: `url(${IMAGES.blogoverlaylarge2.src})` }}>
                                         <div className="dz-info">
                                             <div className="post-date">12 Jan 2025</div>
-                                            <h3 className="dz-title"> <Link href="/blog-details">Understanding Body Contouring Before and After
+                                            <h3 className="dz-title"> <Link href="#">Understanding Body Contouring Before and After
                                             </Link> </h3>
                                             <div className="bottom-info ms-auto">
-                                                <Link href="/blog-details" className="btn btn-square btn-white rounded-circle">
+                                                <Link href="#" className="btn btn-square btn-white rounded-circle">
                                                     <i className="feather icon-arrow-up-right" />
                                                 </Link>
                                             </div>
@@ -67,8 +67,8 @@ function StayInformed() {
                                         <div className="dz-info">
                                             <div className="post-date">12 Jan 2025</div>
                                             <div className="bottom-info">
-                                                <h3 className="dz-title"> <Link href="/blog-details">Pharmacy Care & Support</Link> </h3>
-                                                <Link href="/blog-details" className="btn btn-square btn-white rounded-circle">
+                                                <h3 className="dz-title"> <Link href="#">Pharmacy Care & Support</Link> </h3>
+                                                <Link href="#" className="btn btn-square btn-white rounded-circle">
                                                     <i className="feather icon-arrow-up-right" />
                                                 </Link>
                                             </div>

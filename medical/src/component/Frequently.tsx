@@ -44,7 +44,7 @@ function Frequently() {
                                             <Link href="tel:+96522211900" className="text-secondary">+965 22211900</Link>
                                         </div>
                                     </div>
-                                    <Link href="/appointment" className="btn btn-lg btn-icon btn-primary btn-shadow">
+                                    <Link href="#" className="btn btn-lg btn-icon btn-primary btn-shadow">
                                         <span className="w-100">Appointment</span> <span className="right-icon">
                                             <i className="feather icon-arrow-right" /></span>
                                     </Link>

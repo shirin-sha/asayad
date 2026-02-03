@@ -36,7 +36,7 @@ function Howitwork() {
                                 <div className="dz-media">
                                     <Image src={IMAGES.about4} alt="" />
                                     <div className="dz-btn">
-                                        <Link href="/appointment" className="btn btn-lg btn-icon btn-secondary btn-shadow">
+                                        <Link href="#" className="btn btn-lg btn-icon btn-secondary btn-shadow">
                                             Appointment <span className="right-icon"><i className="feather icon-arrow-right" /></span>
                                         </Link>
                                     </div>

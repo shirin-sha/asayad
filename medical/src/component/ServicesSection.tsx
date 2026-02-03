@@ -11,7 +11,7 @@ function ServicesSection() {
                             <h2 className="title m-b0">Start Feeling Your Best <br /> Explore Our Medical Services </h2>
                         </div>
                         <div className="col-xl-5 col-md-3 text-lg-end d-none d-md-block wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.8s">
-                            <Link href="/services" className="btn btn-icon btn-secondary"> View All
+                            <Link href="#" className="btn btn-icon btn-secondary"> View All
                                 <span className="right-icon"><i className="feather icon-arrow-right" /></span>
                             </Link>
                         </div>
