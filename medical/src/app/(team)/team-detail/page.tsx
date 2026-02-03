@@ -21,7 +21,7 @@ function TeamDetail() {
                                     <div className="widget wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="0.7s">
                                         <div className="dz-team style-5">
                                             <div className="dz-media">
-                                                <Image src={IMAGES.teampmg2} alt="/" />
+                                                <Image src={IMAGES.team1} alt="/" />
                                             </div>
                                             <ul className="dz-social">
                                                 <li><Link href="https://www.linkedin.com/showcase/dexignzone" target="_blank"><i className="fa-brands fa-linkedin" /></Link></li>
