@@ -183,21 +183,21 @@ function HomePage() {
                                                         <div className="item4" data-bottom-top="transform: translateY(-50px)" data-top-bottom="transform: translateY(50px)">
                                                             <div className="info-widget style-3 move-1">
                                                                 <div className="widget-head">
-                                                                    <div className="widget-media">
+                                                                    {/* <div className="widget-media">
                                                                         <Image src={IMAGES.smallavatar5} alt="" />
-                                                                    </div>
+                                                                    </div> */}
                                                                     <div className="widget-content">
                                                                         <h6 className="title">Reports & Follow-Ups</h6>
-                                                                        <ul className="star-list">
+                                                                        {/* <ul className="star-list">
                                                                             <li><i className="fa fa-star" /></li>
                                                                             <li><i className="fa fa-star" /></li>
                                                                             <li><i className="fa fa-star" /></li>
                                                                             <li><i className="fa fa-star" /></li>
                                                                             <li><i className="fa fa-star" /></li>
-                                                                        </ul>
+                                                                        </ul> */}
                                                                     </div>
                                                                 </div>
-                                                                <p>"Clear results and guidance for your next steps after every visit."</p>
+                                                                <p>Clear results and guidance for your next steps after every visit.</p>
                                                             </div>
                                                         </div>
                                                     </div>
