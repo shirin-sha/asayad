@@ -133,11 +133,11 @@ function HomePage() {
                                                         <p className="text wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.8s">
                                                             {slide.description}
                                                         </p>
-                                                        <Link href={slide.button1Link} className="btn btn-lg btn-icon btn-primary m-r20 wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="0.8s">
+                                                         <Link href="#" className="btn btn-lg btn-icon btn-primary m-r20 wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="0.8s">
                                                             {slide.button1Text}
                                                             <span className="right-icon"><i className="feather icon-arrow-right" /></span>
                                                         </Link>
-                                                        <Link href={slide.button2Link} className="btn btn-lg btn-icon btn-secondary wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="0.8s">
+                                                         <Link href="#" className="btn btn-lg btn-icon btn-secondary wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="0.8s">
                                                             {slide.button2Text}
                                                             <span className="right-icon"><i className="feather icon-arrow-right" /></span>
                                                         </Link>
@@ -173,8 +173,9 @@ function HomePage() {
                                                             <div className="info-widget style-2 move-2">
                                                                 <DiagnosisReport />
                                                                 <div className="widget-content">
-                                                                    <h6 className="mb-0"> Online Appointment</h6>
-                                                                    <Link href="/team-detail" className="btn btn-square btn-outline-light text-primary rounded-circle">
+                                                                    <h6 className="mb-0">
+                                                                    Years of Experience</h6>
+                                                                     <Link href="#" className="btn btn-square btn-outline-light text-primary rounded-circle">
                                                                         <i className="feather icon-arrow-up-right" />
                                                                     </Link>
                                                                 </div>
@@ -210,7 +211,7 @@ function HomePage() {
                                                     </div>
                                                     <div className="widget-content">
                                                         <h6 className="title">Have a Question?</h6>
-                                                        <Link href="mailto:info@example.com">info@example.com</Link>
+                                                        <Link href="#">info@example.com</Link>
                                                     </div>
                                                 </div>
                                             </div>

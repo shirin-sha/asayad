@@ -35,7 +35,7 @@ const DiagnosisReport = () =>{
                         fontWeight: '600',
                         fontFamily: 'var(--font-family-base)',
                         formatter: function(val: number) {
-                            return '24/7';
+                            return '20+';
                         }
                     }
                 }
@@ -48,11 +48,11 @@ const DiagnosisReport = () =>{
     };
     return(
         <Fragment>
-            <div id="progressChart">
+            <div id="">
                 <Chart options={options} 
                     series={series} 
                     type="radialBar" 
-                    width={250} 
+                    width={200} 
                     
                 />
             </div>

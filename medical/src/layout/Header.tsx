@@ -53,7 +53,7 @@ function Header() {
                     <div className="container-fluid">
                         <div className="row align-items-center">
                             <div className="col-auto">
-                                <Link href="/">
+                                <Link href="#">
                                     <Image src={IMAGES.logo} alt="logo" style={{ height: '80px', width: 'auto' }} />
                                 </Link>
                             </div>
@@ -95,12 +95,12 @@ function Header() {
                                         if (menuClassName === 'has-mega-menu') {
                                             return (
                                                 <li key={i} className={`has-mega-menu sub-menu-down auto-width menu-left ${i == isActive ? 'open' : ''}`} >
-                                                    <Link href={"#"} onClick={() => menuHandler(i)}> <span>{data.title}</span> <i className="fas fa-chevron-down tabIndex" /> </Link>
+                                                    <Link href="#" onClick={() => menuHandler(i)}> <span>{data.title}</span> <i className="fas fa-chevron-down tabIndex" /> </Link>
                                                     <div className="mega-menu">
                                                         <ul className="demo-menu">
                                                             {data.content?.map((item, index) => (
                                                                 <li key={index}>
-                                                                    <Link href={item.to}> <Image src={item.image as string} alt={item.title} /> 
+                                                                    <Link href="#"> <Image src={item.image as string} alt={item.title} /> 
                                                                         <span className="menu-title">{item.title}</span> 
                                                                     </Link>
                                                                 </li>
@@ -113,10 +113,10 @@ function Header() {
                                         else if (menuClassName === 'sub-menu-down') {
                                             return (
                                                 <li key={i} className={`sub-menu-down ${i == isActive ? 'open' : ''}`} onClick={() => menuHandler(i)}>
-                                                    <Link href={"#"}> <span>{data.title}</span> <i className="fas fa-chevron-down tabIndex" /> </Link>
+                                                    <Link href="#"> <span>{data.title}</span> <i className="fas fa-chevron-down tabIndex" /> </Link>
                                                     <ul className="sub-menu">
                                                         {data.content?.map((item, index) => (
-                                                            <li key={index}> <Link href={item.to}>{item.title}</Link> </li>
+                                                            <li key={index}> <Link href="#">{item.title}</Link> </li>
                                                         ))}
                                                     </ul>
                                                 </li>
@@ -124,17 +124,17 @@ function Header() {
                                         }
                                         else {
                                             return (
-                                                <li key={i}><Link href={data.to as string}><span>{data.title}</span></Link></li>
+                                                <li key={i}><Link href="#"><span>{data.title}</span></Link></li>
                                             )
                                         }
                                     })}
                                 </ul>
                                 <div className="dz-social-icon">
                                     <ul>
-                                        <li> <Link href="https://www.facebook.com/dexignzone" target="_blank"> <i className="fa-brands fa-facebook-f" /> </Link> </li>
-                                        <li> <Link href="https://x.com/dexignzone" target="_blank"> <i className="fa-brands fa-x-twitter" /> </Link> </li>
-                                        <li> <Link href="https://www.linkedin.com/showcase/dexignzone" target="_blank"> <i className="fa-brands fa-linkedin" /> </Link> </li>
-                                        <li> <Link href="https://www.instagram.com/dexignzone" target="_blank"> <i className="fa-brands fa-instagram" /> </Link> </li>
+                                        <li> <Link href="#"> <i className="fa-brands fa-facebook-f" /> </Link> </li>
+                                        <li> <Link href="#"> <i className="fa-brands fa-x-twitter" /> </Link> </li>
+                                        <li> <Link href="#"> <i className="fa-brands fa-linkedin" /> </Link> </li>
+                                        <li> <Link href="#"> <i className="fa-brands fa-instagram" /> </Link> </li>
                                     </ul>
                                 </div>
                             </div>
@@ -142,10 +142,10 @@ function Header() {
                                 <div className="extra-cell">
                                     <ul className="header-right">
                                         <li className="nav-item">
-                                            <Link href="/find-doctor" className="btn btn-primary btn-hover1"> Find Doctor </Link>
+                                            <Link href="#" className="btn btn-primary btn-hover1"> Find Doctor </Link>
                                         </li>
                                         <li className="nav-item">
-                                            <Link href="/appointment" className="btn btn-primary btn-hover1"> Appointment </Link>
+                                            <Link href="#" className="btn btn-primary btn-hover1"> Appointment </Link>
                                         </li>
                                         <li className="nav-item">
                                             <button onClick={() => handleclick(1)} type="button" className="toggle-nav-btn" data-bs-toggle="offcanvas" data-bs-target="#headerSidebar" aria-controls="offcanvasLeft">
@@ -165,7 +165,7 @@ function Header() {
                     <div className="offcanvas-body">
                         <div className="widget">
                             <div className="sidebar-header m-b20">
-                                <Link href="/"><Image src={IMAGES.logo} alt="/" /></Link>
+                                <Link href="#"><Image src={IMAGES.logo} alt="/" /></Link>
                             </div>
                             <p>
                                 Asayad Medical Center (AMC) is a multi-specialty healthcare center delivering safe, reliable,
@@ -180,8 +180,8 @@ function Header() {
                             </div>
                             <ul className="list-check">
                                 <li>Asayad Medical Center, Kuwait</li>
-                                <li><Link href="mailto:info@amckw.com" className="text-body">info@amckw.com</Link></li>
-                                <li><Link href="tel:+96522211900" className="text-body">+965 22211900</Link></li>
+                                <li><Link href="#" className="text-body">info@amckw.com</Link></li>
+                                <li><Link href="#" className="text-body">+965 22211900</Link></li>
                             </ul>
                         </div>
                         <div className="widget">
@@ -208,11 +208,11 @@ function Header() {
                             </div>
                             <div className="dz-social-icon style-1">
                                 <ul>
-                                    <li><Link href="https://www.linkedin.com/showcase/dexignzone" target="_blank"><i className="fa-brands fa-linkedin" /></Link> </li>
-                                    <li><Link href="https://www.instagram.com/dexignzone" target="_blank"><i className="fa-brands fa-instagram" /></Link> </li>
-                                    <li><Link href="https://www.facebook.com/dexignzone" target="_blank"><i className="fa-brands fa-facebook-f" /></Link> </li>
-                                    <li><Link href="https://x.com/dexignzone" target="_blank"><i className="fa-brands fa-x-twitter" /></Link> </li>
-                                    <li><Link href="https://www.youtube.com/@dexignzone" target="_blank"><i className="fa-brands fa-youtube" /></Link> </li>
+                                    <li><Link href="#"><i className="fa-brands fa-linkedin" /></Link> </li>
+                                    <li><Link href="#"><i className="fa-brands fa-instagram" /></Link> </li>
+                                    <li><Link href="#"><i className="fa-brands fa-facebook-f" /></Link> </li>
+                                    <li><Link href="#"><i className="fa-brands fa-x-twitter" /></Link> </li>
+                                    <li><Link href="#"><i className="fa-brands fa-youtube" /></Link> </li>
                                 </ul>
                             </div>
                         </div>
