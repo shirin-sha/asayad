@@ -69,6 +69,7 @@ import testimonial5 from '../../public/assets/images/testimonial/img5.webp'
 import bnr1 from '../../public/assets/images/banner/bnr1.webp'
 import bnr2 from '../../public/assets/images/banner/bnr2.webp'
 import bnr3 from '../../public/assets/images/banner/bnr3.webp'
+import bnr4 from '../../public/assets/images/banner/bnr4.webp'
 import avtarmiddle1 from '../../public/assets/images/avatar/middle/img1.webp'
 import avtarmiddle2 from '../../public/assets/images/avatar/middle/img2.webp'
 import demohome1 from '../../public/assets/images/demo/home1.jpg';
@@ -178,6 +179,7 @@ export const IMAGES = {
     bnr1: bnr1,
     bnr2: bnr2,
     bnr3: bnr3,
+    bnr4: bnr4,
     logomiddle1: logomiddle1,
     logomiddle2: logomiddle2,
     logomiddle3: logomiddle3,

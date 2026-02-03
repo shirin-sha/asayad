@@ -12,7 +12,7 @@ function Contactus() {
         <>
             <Header />
             <main className="page-content">
-                <PageBanner title="Contact Us" bnrimage={IMAGES.bnr1.src} />
+                <PageBanner title="Contact Us" bnrimage={IMAGES.bnr4.src} />
                 <section className="content-inner">
                     <div className="container">
                         <div className="row g-xl-4 align-items-center">
