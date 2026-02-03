@@ -167,16 +167,21 @@ function Header() {
                             <div className="sidebar-header m-b20">
                                 <Link href="/"><Image src={IMAGES.logo} alt="/" /></Link>
                             </div>
-                            <p>ClinicMaster is a modern and responsive Bootstrap HTML template designed for health and medical websites. Ideal for clinics, hospitals, and healthcare professionals seeking a professional online presence with an elegant and user-friendly design.</p>
+                            <p>
+                                Asayad Medical Center (AMC) is a multi-specialty healthcare center delivering safe, reliable,
+                                and patient-focused medical services. Our experienced specialists, modern facilities, and
+                                coordinated care approach ensure every patient receives accurate treatment with comfort,
+                                privacy, and confidence.
+                            </p>
                         </div>
                         <div className="widget">
                             <div className="widget-title">
                                 <h4 className="title">Contact Us</h4>
                             </div>
                             <ul className="list-check">
-                                <li>785 15h Street, Office 478 Berlin, De 81566</li>
-                                <li><Link href="mailto:email@domain.com" className="text-body">email@domain.com</Link></li>
-                                <li><Link href="tel:+11234567890" className="text-body">+1 123 456 7890</Link></li>
+                                <li>Asayad Medical Center, Kuwait</li>
+                                <li><Link href="mailto:info@amckw.com" className="text-body">info@amckw.com</Link></li>
+                                <li><Link href="tel:+96522211900" className="text-body">+965 22211900</Link></li>
                             </ul>
                         </div>
                         <div className="widget">
