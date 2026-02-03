@@ -92,10 +92,11 @@ function Header() {
                                 <ul className="nav navbar-nav">
                                     {headerdata.map((data :HeaderItem, i: number) => {
                                         let menuClassName = data.classChange;
+                                        const mainLink = data.title === "Contact" ? "/contact-us" : "#";
                                         if (menuClassName === 'has-mega-menu') {
                                             return (
                                                 <li key={i} className={`has-mega-menu sub-menu-down auto-width menu-left ${i == isActive ? 'open' : ''}`} >
-                                                    <Link href="#" onClick={() => menuHandler(i)}> <span>{data.title}</span> <i className="fas fa-chevron-down tabIndex" /> </Link>
+                                                    <Link href={mainLink} onClick={() => menuHandler(i)}> <span>{data.title}</span> <i className="fas fa-chevron-down tabIndex" /> </Link>
                                                     <div className="mega-menu">
                                                         <ul className="demo-menu">
                                                             {data.content?.map((item, index) => (
@@ -113,7 +114,7 @@ function Header() {
                                         else if (menuClassName === 'sub-menu-down') {
                                             return (
                                                 <li key={i} className={`sub-menu-down ${i == isActive ? 'open' : ''}`} onClick={() => menuHandler(i)}>
-                                                    <Link href="#"> <span>{data.title}</span> <i className="fas fa-chevron-down tabIndex" /> </Link>
+                                                    <Link href={mainLink}> <span>{data.title}</span> <i className="fas fa-chevron-down tabIndex" /> </Link>
                                                     <ul className="sub-menu">
                                                         {data.content?.map((item, index) => (
                                                             <li key={index}> <Link href="#">{item.title}</Link> </li>
@@ -124,7 +125,7 @@ function Header() {
                                         }
                                         else {
                                             return (
-                                                <li key={i}><Link href="#"><span>{data.title}</span></Link></li>
+                                                <li key={i}><Link href={mainLink}><span>{data.title}</span></Link></li>
                                             )
                                         }
                                     })}
