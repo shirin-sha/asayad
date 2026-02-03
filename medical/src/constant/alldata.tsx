@@ -134,14 +134,23 @@ export const servicedetails = [
 ]
 // teamdetail
 export const empolydata = [
-    { id: 1, delay: '0.2s', image: IMAGES.team6, title: "Dr. Hossam Haroun", position: "MD Urology & Andrology" },
-    { id: 2, delay: '0.4s', image: IMAGES.team5, title: "Dr. Dina Ibrahim", position: "Lab Doctor" },
-    { id: 3, delay: '0.6s', image: IMAGES.team1, title: "Dr. Mohamed Abdel Aziz", position: "Registrar Anesthesiologist" },
-    { id: 5, delay: '1.0s', image: IMAGES.team2, title: "Dr Shereen Marei", position: " Doctor of Pediatrics and Neonatology" },
-    // { id: 6, delay: '1.2s', image: IMAGES.team2, title: "Dr. Adel Al-malah", position: "Radiology & Imaging Consultant" },
-    { id: 4, delay: '0.8s', image: IMAGES.team4, title: "Prof. Ahmad Nabil ", position: "Consultant of Gastroenterology & G.I. Endoscopy " },
-    { id: 7, delay: '1.4s', image: IMAGES.team3, title: "Dr. Muhammad Mustafa", position: "General Surgery Registrar" },
-    { id: 8, delay: '1.6s', image: IMAGES.team4, title: "Dr. Mohamed Hassan", position: "Physiotherapist & Rehabilitation Specialist" },
+    { id: 1, delay: '0.2s', image: IMAGES.team1, title: "Prof. Ahmad Nabil", position: "Consultant of Gastroenterology & G.I. Endoscopy " },
+    { id: 2, delay: '0.4s', image: IMAGES.team2, title: "Prof. Abdelghany Eissa", position: "Consultant of General Surgery" },
+    { id: 3, delay: '0.6s', image: IMAGES.team3, title: "Mohamed Abdel Aal", position: "Consultant and Head of Plastic Surgery Department" },
+    { id: 4, delay: '0.8s', image: IMAGES.team4, title: "Dr. Tarek Hamza", position: "	E.N.T" },
+    { id: 5, delay: '1.0s', image: IMAGES.team5, title: "Dr. Muhammad Mustafa", position: "General Surgery Registrar" },
+    { id: 6, delay: '1.2s', image: IMAGES.team6, title: "Dr. Mohamed Hassan", position: "Physiotherapist & Rehabilitation Specialist" },
+    { id: 7, delay: '1.4s', image: IMAGES.team7, title: "Dr. Mohamed Abdel Aziz", position: "Registrar Anesthesiologist" },
+    { id: 8, delay: '1.6s', image: IMAGES.team8, title: "Dr. Kamilia Salaheldin", position: "Consultant Anesthesiologist" },
+    { id: 9, delay: '1.8s', image: IMAGES.team9, title: "Dr. Hossam Haroun", position: "MD Urology & Andrology" },
+    { id: 10, delay: '2.0s', image: IMAGES.team10, title: "Dr. Dina Ibrahim", position: "Lab Doctor" },
+    { id: 11, delay: '2.2s', image: IMAGES.team11, title: "Dr. Aya Ayman", position: "General physician" },
+    { id: 12, delay: '2.4s', image: IMAGES.team12, title: "Dr. Amr Asayad", position: "Consultant Ob/Gyn& IVF" },
+    { id: 13, delay: '2.6s', image: IMAGES.team13, title: "Dr. Alaa Yousef Qashaamy", position: "General Practitioner Dentist" },
+    { id: 14, delay: '2.8s', image: IMAGES.team14, title: "Dr. Adel Al-malah", position: "Radiology & Imaging Consultant" },
+    { id: 15, delay: '3.0s', image: IMAGES.team15, title: "Dr. Abeer Abdulmaqsood", position: "Ob/ Gynecology & IVF" },
+    { id: 16, delay: '3.2s', image: IMAGES.team16, title: "Dr. Abdel Rashid Al-Kandari", position: "Consultant ENT, Plastic & Reconstructive Surgery Specialist" },
+    { id: 17, delay: '3.4s', image: IMAGES.team17, title: "Dr Shereen Marei", position: " Doctor of Pediatrics and Neonatology" },
 ]
 // component 
 // alllocation
@@ -329,7 +338,7 @@ export const sidebarpostdata = [
 export const whychoosedata = [
     { delay: '0.4s', title: 'Experienced Specialists', description: 'A multi-specialty team focused on safe, reliable care and better outcomes.', },
     { delay: '0.6s', title: 'Seamless Patient Journey', description: 'Easy appointments, clear guidance, and smooth follow-ups—without stress.', },
-    { delay: '0.8s', title: 'Accurate Diagnosis & Reporting', description: 'Modern imaging and lab services that support quick, informed treatment decisions.', },
+    { delay: '0.8s', title: 'Accurate Diagnosis', description: 'Modern imaging and lab services that support quick, informed treatment decisions.', },
     { delay: '1.0s', title: 'Patient-First Approach', description: 'Privacy, comfort, and respectful communication at every stage of your visit', },
 ]
 // worldclass

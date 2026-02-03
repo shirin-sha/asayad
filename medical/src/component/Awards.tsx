@@ -13,7 +13,7 @@ function Awards() {
                     <div className="row g-0 align-items-center">
                         <div className="col-xxl-3">
                             <div className="section-head style-1 m-b30">
-                                <h2 className="title wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.8s">Awards, Certifications & Quality Standards</h2>
+                                <h2 className="title wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.8s">Certifications</h2>
                                 <p className="wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.8s">At Asayad Medical Center, we follow recognized healthcare practices and internal quality controls to ensure patient safety, reliable outcomes, and consistent service excellence.</p>
                             </div>
                             {awarddata.map((item, i) => (

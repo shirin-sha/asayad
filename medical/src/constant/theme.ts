@@ -31,7 +31,7 @@ import smallavatar6 from '../../public/assets/images/avatar/small/avatar6.webp';
 import herobannerbg1 from '../../public/assets/images/hero-banner/bg1.webp'
 import herobanner1 from '../../public/assets/images/hero-banner/img1.webp'
 import about1 from '../../public/assets/images/about/img1.webp'
-import about2 from '../../public/assets/images/about/img2.webp'
+import about2 from '../../public/assets/images/about/img2.jpeg'
 import about3 from '../../public/assets/images/about/img3.webp'
 import about4 from '../../public/assets/images/about/img4.webp'
 import about5 from '../../public/assets/images/about/img5.webp'
@@ -82,12 +82,23 @@ import svgicon5 from '../../public/assets/images/svg/icon5.svg'
 import svgicon6 from '../../public/assets/images/svg/icon6.svg'
 import herobannerline from '../../public/assets/images/hero-banner/line.png'
 import herobannerheart from '../../public/assets/images/hero-banner/heart.png'
-import team1 from '../../public/assets/images/team/abdel.png'
-import team2 from '../../public/assets/images/team/shereen.png'
-import team3 from '../../public/assets/images/team/adel.png'
-import team4 from '../../public/assets/images/team/ahmad.png'
-import team5 from '../../public/assets/images/team/dina.png'
-import team6 from '../../public/assets/images/team/hossam.png'
+import team1 from '../../public/assets/images/team/1_Prof. Ahmad Nabil.webp'
+import team2 from '../../public/assets/images/team/2_Prof. Abdelghany Eissa.webp'
+import team3 from '../../public/assets/images/team/3_Mohamed Abdel Aal.webp'
+import team4 from '../../public/assets/images/team/4_Dr. Tarek Hamza.webp'
+import team5 from '../../public/assets/images/team/5_Dr. Muhammad Mustafa.webp'
+import team6 from '../../public/assets/images/team/6_Dr. Mohamed Hassan.webp'
+import team7 from '../../public/assets/images/team/7_Dr. Mohamed Abdel Aziz.webp'
+import team8 from '../../public/assets/images/team/8_Dr. Kamilia Salaheldin.webp'
+import team9 from '../../public/assets/images/team/9_Dr. Hossam Haroun.webp'
+import team10 from '../../public/assets/images/team/10_Dr. Dina Ibrahim.webp'
+import team11 from '../../public/assets/images/team/11_Dr. Aya Ayman.webp'
+import team12 from '../../public/assets/images/team/12_Dr. Amr Asayad.webp'
+import team13 from '../../public/assets/images/team/13_Dr. Alaa Yousef Qashaamy.webp'
+import team14 from '../../public/assets/images/team/14_Dr. Adel Al-malah.webp'
+import team15 from '../../public/assets/images/team/15_Dr. Abeer Abdulmaqsood.webp'
+import team16 from '../../public/assets/images/team/16_Dr. Abdel Rashid Al-Kandari.webp'
+import team17 from '../../public/assets/images/team/17_Dr Shereen Marei.webp'
 import arrowleft from '../../public/assets/images/svg/arrow-left.svg'
 import arrowright from '../../public/assets/images/svg/arrow-right.svg'
 import portfolio1 from '../../public/assets/images/portfolio/pic1.webp'
@@ -100,7 +111,7 @@ import testimoniallarge1 from '../../public/assets/images/testimonial/large/img1
 import testimonialsmall1 from '../../public/assets/images/testimonial/small/img1.webp'
 import testimonialsmall2 from '../../public/assets/images/testimonial/small/img2.webp'
 import testimonialsmall3 from '../../public/assets/images/testimonial/small/img3.webp'
-import teampmg2 from '../../public/assets/images/team/img2.png'
+// import teampmg2 from '../../public/assets/images/team/img2.png'
 import camerasvg from '../../public/assets/images/svg/camra.svg'
 import massagesvg from '../../public/assets/images/svg/message.svg'
 import callsvg from '../../public/assets/images/svg/call.svg'
@@ -197,6 +208,17 @@ export const IMAGES = {
     team4: team4,
     team5: team5,
     team6: team6,
+    team7: team7,
+    team8: team8,
+    team9: team9,
+    team10: team10,
+    team11: team11,
+    team12: team12,
+    team13: team13,
+    team14: team14,
+    team15: team15,
+    team16: team16,
+    team17: team17,
     arrowleft: arrowleft,
     arrowright: arrowright, 
     blogoverlay1: blogoverlay1,
@@ -227,7 +249,7 @@ export const IMAGES = {
     logosmall4: logosmall4,
     logosmall5: logosmall5,
     logosmall6: logosmall6,
-    teampmg2: teampmg2,
+    // teampmg2: teampmg2,
     question: question,
     blog1: blog1,
     blogmiddle1: blogmiddle1,
