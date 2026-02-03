@@ -92,7 +92,7 @@ function Header() {
                                 <ul className="nav navbar-nav">
                                     {headerdata.map((data :HeaderItem, i: number) => {
                                         let menuClassName = data.classChange;
-                                        const mainLink = data.title === "Contact" ? "/contact-us" : "#";
+                                        const mainLink = data.title === "Home" ? "/" : data.title === "Contact" ? "/contact-us" : "#";
                                         if (menuClassName === 'has-mega-menu') {
                                             return (
                                                 <li key={i} className={`has-mega-menu sub-menu-down auto-width menu-left ${i == isActive ? 'open' : ''}`} >
