@@ -20,7 +20,7 @@ function PageBanner({ title, bnrimage } : Props) {
                             </ul>
                         </nav>
                         <div className="dz-btn">
-                            <Link href="tel:+11234567890" className="btn btn-lg btn-icon btn-primary radius-xl btn-shadow mb-3 mb-sm-0">
+                            <Link href="tel:+96522211900" className="btn btn-lg btn-icon btn-primary radius-xl btn-shadow mb-3 mb-sm-0">
                                 <span className="left-icon"> <i className="feather icon-phone-call" /> </span> +965 22211900
                             </Link>
                         </div>
