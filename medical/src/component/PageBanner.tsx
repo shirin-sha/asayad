@@ -19,14 +19,14 @@ function PageBanner({ title, bnrimage } : Props) {
                                 <li className="breadcrumb-item">{title}</li>
                             </ul>
                         </nav>
-                        {/* <div className="dz-btn">
+                        <div className="dz-btn">
                             <Link href="tel:+11234567890" className="btn btn-lg btn-icon btn-primary radius-xl btn-shadow mb-3 mb-sm-0">
-                                <span className="left-icon"> <i className="feather icon-phone-call" /> </span> +1 123 456 7890
+                                <span className="left-icon"> <i className="feather icon-phone-call" /> </span> +965 22211900
                             </Link>
-                        </div> */}
+                        </div>
                     </div>
                 </div>
-                {/* <span className="text-vertical">24/7 EMERGENCY SERVICE</span> */}
+                <span className="text-vertical">24/7 EMERGENCY SERVICE</span>
                 <ul className="dz-social">
                     <li><Link href="#" target=""> 
                             <i className="fa-brands fa-instagram" />
