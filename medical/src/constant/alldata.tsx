@@ -311,8 +311,8 @@ export const testiswipeerdata = [
 export const serviceboxdata = [    
     { id: 1, delay: '0.1s', title: 'Radiology & Imaging', description: 'Advanced diagnostic imaging to support accurate, timely treatment decisions.', svg1: SVGICONS.iconcell1, svg2: SVGICONS.iconbg1, },
     { id: 2, delay: '0.2s', title: 'Laboratory Services', description: 'Reliable medical tests with clear reporting for faster diagnosis and follow-up.', svg1: SVGICONS.iconcell2, svg2: SVGICONS.iconbg2, },
-    { id: 3, delay: '0.3s', title: "Women's Health & IVF", description: "Complete women's care with fertility support, monitoring, and specialist consultations.", svg1: SVGICONS.iconcell3, svg2: SVGICONS.iconbg3, },
-    { id: 4, delay: '0.4s', title: 'Dental Care', description: 'General and cosmetic dentistry—including restorative and preventive treatments.', svg1: SVGICONS.iconcell4, svg2: SVGICONS.iconbg4, },
+    { id: 3, delay: '0.3s', title: "Women's Health & IVF", description: "Complete women's care with fertility support, monitoring, and specialist consultations.", svg1: SVGICONS.iconcell4, svg2: SVGICONS.iconbg4, },
+    { id: 4, delay: '0.4s', title: 'Dental Care', description: 'General and cosmetic dentistry—including restorative and preventive treatments.', svg1: SVGICONS.iconcell3, svg2: SVGICONS.iconbg3, },
     { id: 5, delay: '0.5s', title: 'Internal Medicine', description: 'Comprehensive care for diabetes, blood pressure, cholesterol, and chronic conditions.', svg1: SVGICONS.iconcell5, svg2: SVGICONS.iconbg5, },
     { id: 6, delay: '0.6s', title: 'General Surgery', description: 'Surgical consultations and day procedures with patient safety as priority.', svg1: SVGICONS.iconcell6, svg2: SVGICONS.iconbg6, },
     { id: 7, delay: '0.7s', title: 'Physiotherapy & Rehab', description: 'Recovery-focused therapy programs to improve mobility, strength, and comfort.', svg1: SVGICONS.iconcell7, svg2: SVGICONS.iconbg7, },
