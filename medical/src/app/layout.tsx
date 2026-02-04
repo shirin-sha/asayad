@@ -15,7 +15,7 @@ import ScrolltoTop from "@/component/ScrolltoTop";
 
 
 export const metadata: Metadata = {
-  title: "Asayad Medical Center - Health & Medical NextJs Template",
+  title: "Asayad Medical Center",
   description: "",
 };
 
