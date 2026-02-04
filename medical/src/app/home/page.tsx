@@ -103,17 +103,17 @@ function HomePage() {
                 /* Smaller 20+ Years of Experience widget in hero */
                 .hero-banner.style-1 .info-widget.style-2 {
                     width: 180px;
-                    padding: 14px 16px;
+                    padding: 10px 12px;
                     border-radius: 20px;
-                }
-                .hero-banner.style-1 .info-widget.style-2 .widget-content h6,
-                .hero-banner.style-1 .info-widget.style-2 {
                     font-size: 16px;
                     line-height: 1.4;
                 }
+                .hero-banner.style-1 .info-widget.style-2 .widget-content {
+                    margin-top: -18px; /* pull label even closer to the circle */
+                }
                 .hero-banner.style-1 .info-widget.style-2 #progressChart {
-                    min-height: 140px !important;
-                    height: 140px !important;
+                    min-height: 90px !important;
+                    height: 90px !important;
                 }
            
             `}} />
