@@ -118,18 +118,7 @@ function Footer() {
                                 </div>
                                 <div className="col-lg-6 col-md-12 text-end">
                                     <div className="d-flex align-items-center justify-content-center justify-content-md-center justify-content-xl-end">
-                                        <div className="widget-rating1">
-                                            <Image src={IMAGES.google} alt="google" />
-                                            <ul className="star-list">
-                                                <li><i className="fa fa-star" /></li>
-                                                <li><i className="fa fa-star" /></li>
-                                                <li><i className="fa fa-star" /></li>
-                                                <li><i className="fa fa-star" /></li>
-                                                <li><i className="fa fa-star" /></li>
-                                            </ul>
-                                            <span className="rating">(4.8)</span>
-                                            <span className="text">12k+ ratings on google</span>
-                                        </div>
+                                    Powered by Anathoth IT Solutions
                                     </div>
                                 </div>
                             </div>

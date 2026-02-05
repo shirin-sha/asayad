@@ -25898,7 +25898,6 @@ table {
 .overlay-primary-gradient-dark:before,
 .overlay-black-dark:before,
 .overlay-secondary-dark:before {
- 
 }
 
 .overlay-opacity-95:before {
@@ -45692,6 +45691,25 @@ footer.site-footer.footer-dark .fb-inner {
   -webkit-transition: none;
   -ms-transition: none;
   transition: none;
+}
+
+.overlay-secondary-home {
+  position: relative;
+}
+.overlay-secondary-home:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--bs-secondary);
+  opacity: 0.8;
+}
+.overlay-secondary-home .container,
+.overlay-secondary-home .container-fluid {
+  position: relative;
+  z-index: 1;
 }
 
 /*# sourceMappingURL=style.css.map */

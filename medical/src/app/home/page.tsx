@@ -251,8 +251,8 @@ function HomePage() {
                     </div>
                 </section>
                 <TeamSection />
-                <section className="clearfix p-t50 overlay-secondary-dark bg-primary background-blend-multiply overflow-hidden" 
-                    style={{ backgroundImage: `url(${IMAGES.bg3.src})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'right center', backgroundSize: 'cover' }}
+                <section className="clearfix p-t50 overlay-secondary-home bg-primary background-blend-multiply overflow-hidden " 
+                    style={{ backgroundImage: `url(${IMAGES.bg3.src})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'right center', backgroundSize: 'cover' ,}}
                 >
                     <RealPatient />
                 </section>
