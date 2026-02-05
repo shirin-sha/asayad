@@ -25851,7 +25851,7 @@ table {
 .overlay-secondary-light:before,
 .overlay-secondary-middle:before,
 .overlay-secondary-dark:before {
-  /* background: var(--bs-secondary); */
+  background: var(--bs-secondary);
 }
 
 .overlay-gradient-light:before,
