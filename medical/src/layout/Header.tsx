@@ -53,7 +53,7 @@ function Header() {
                     <div className="container-fluid">
                         <div className="row align-items-center">
                             <div className="col-auto">
-                                <Link href="#">
+                                <Link href="/">
                                     <Image src={IMAGES.logo} alt="logo" style={{ height: '80px', width: 'auto' }} />
                                 </Link>
                             </div>
