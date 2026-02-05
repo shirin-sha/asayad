@@ -26,7 +26,7 @@ function PageBanner({ title, bnrimage } : Props) {
                         </div>
                     </div>
                 </div>
-                <span className="text-vertical">24/7 EMERGENCY SERVICE</span>
+                <span className="text-vertical">HELP AND GUIDANCE</span>
                 <ul className="dz-social">
                     <li><Link href="#" target=""> 
                             <i className="fa-brands fa-instagram" />

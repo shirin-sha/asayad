@@ -21426,6 +21426,8 @@ select, button {
 }
 .dz-team .dz-media img {
   width: 100%;
+  height: 330px;
+  object-fit: contain;
 }
 .dz-team .dz-position {
   display: block;
