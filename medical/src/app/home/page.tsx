@@ -4,7 +4,6 @@ import Image from "next/image";
 import { IMAGES } from "@/constant/theme";
 import Header from "@/layout/Header";
 import Footer from "@/layout/Footer";
-import DiagnosisReport from "./_components/DiagnosisReport";
 import WorldClass from "@/component/WorldClass";
 import Counter from "@/component/Counter";
 import ServicesSection from "@/component/ServicesSection";
@@ -185,15 +184,9 @@ function HomePage() {
                                                             </div>
                                                         </div>
                                                         <div className="item3" data-bottom-top="transform: translateY(-50px)" data-top-bottom="transform: translateY(50px)">
-                                                            <div className="info-widget style-2 move-2">
-                                                                <DiagnosisReport />
-                                                                <div className="widget-content">
-                                                                    <h6 className="mb-0">
-                                                                    Years of Experience</h6>
-                                                                     <Link href="#" className="btn btn-square btn-outline-light text-primary rounded-circle">
-                                                                        <i className="feather icon-arrow-up-right" />
-                                                                    </Link>
-                                                                </div>
+                                                            <div className="info-widget style-2 move-2 d-flex align-items-center justify-content-center flex-column">
+                                                                <span className="number text-primary display-6 mb-1 ">20+</span>
+                                                                <h6 className="mb-0">Years of Experience</h6>
                                                             </div>
                                                         </div>
                                                         <div className="item4" data-bottom-top="transform: translateY(-50px)" data-top-bottom="transform: translateY(50px)">
