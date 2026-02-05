@@ -25891,7 +25891,7 @@ table {
 .overlay-primary-gradient-middle:before,
 .overlay-black-middle:before,
 .overlay-secondary-middle:before {
-  opacity: 0.7;
+  opacity: 0.2;
 }
 
 .overlay-primary-dark:before,
